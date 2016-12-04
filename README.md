@@ -1,6 +1,8 @@
 # 前端开发人员的开发环境配置
-## mac篇
-###  homebrew
+
+
+# mac系统环境
+##  homebrew
 [homebrew](http://brew.sh)
 mac上的软件管理工具，可以安装很多东西。使用需墙外网速。
 ```
@@ -10,14 +12,14 @@ $ brew doctor
 $ brew update
 $ brew upgrade
 
-$ brew search node #搜索
-$ brew install node #安装
+$ brew search nvm #搜索
+$ brew install nvm #安装
 ```
-###  alfred
+##  alfred
 [alfred](https://www.alfredapp.com/)
 替换系统的spotlight,取消spotlight的快捷键，设置Alfred的快捷键
 
-###  terminal
+##  terminal
 [iterm2](https://www.iterm2.com/)
 替换系统终端
 
@@ -29,14 +31,14 @@ colors
 text
 设置字体，大小
 
-### zsh
+## zsh
 mac自带zsh，在terminal中设置 
 终端->偏好设置->描述文件->shell 
 
 
 修改启动命令，选择-zsh
 
-### oh-my-zsh
+## oh-my-zsh
 [oh-my-zsh](http://ohmyz.sh/)
 ``` 
 $ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
@@ -66,4 +68,24 @@ PURE_CMD_MAX_EXEC_TIME=10
 
 prompt pure
 
+```
+
+# 前端环境
+
+## nodejs
+```
+$ brew install nvm; //nodejs多版本管理工具
+$ brew install 6.9.1; //安装node v6.9.1
+```
+
+## 编辑器
+### vscode
+- 1 download Microsoft vscode
+- 2 设置code到系统环境，【⇧⌘P】-> shell command -> install 'code' command in PATH 
+- 3 常用插件
+```
+   . Auto-Open Markdown Preview
+   . beautify
+   . vscode-icon
+   . Visual Studio Code Settings Sync
 ```
