@@ -47,13 +47,7 @@ $ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/insta
 pure-theme.zsh 配色方案 [pure](https://github.com/sindresorhus/pure)
 
 - 1 npm install -g pure-prompt
-- 2 down sources
-```
-    ln -s /usr/pure/pure.zsh /usr/local/share/zsh/site-functions/prompt_pure_setup
-    ln -s /usr/pure/async.zsh /usr/local/share/zsh/site-functions/async
-    ln -s /usr/pure/pure.zsh ~/.oh-my-zsh/custom/themes/pure.zsh-theme
-``` 
-- 3 vim .zshrc
+- 2 vim .zshrc
 ```
 #.zshrc
 
@@ -68,6 +62,11 @@ PURE_CMD_MAX_EXEC_TIME=10
 
 prompt pure
 
+```
+
+- 3 zsh-syntax-highlighting
+```
+   brew install zsh-syntax-highlighting
 ```
 
 # 前端环境
