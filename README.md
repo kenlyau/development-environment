@@ -47,7 +47,11 @@ $ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/insta
 pure-theme.zsh 配色方案 [pure](https://github.com/sindresorhus/pure)
 
 - 1 npm install -g pure-prompt
-- 2 vim .zshrc
+- 2 pure.zsh-theme
+```
+pure.zsh -> .oh-my-zsh/custom/theme/pure.zh-theme
+```
+- 3 vim .zshrc
 ```
 #.zshrc
 
@@ -64,9 +68,12 @@ prompt pure
 
 ```
 
-- 3 zsh-syntax-highlighting
+- 4 zsh-syntax-highlighting
 ```
    brew install zsh-syntax-highlighting
+   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+   #.zshrc
+   plugins = ([plugins] zsh-syntax-highlighting)
 ```
 
 # 前端环境
