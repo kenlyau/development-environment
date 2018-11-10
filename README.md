@@ -47,11 +47,9 @@ $ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/insta
 pure-theme.zsh 配色方案 [pure](https://github.com/sindresorhus/pure)
 
 - 1 npm install -g pure-prompt
-- 2 pure.zsh-theme
+
 ```
-pure.zsh -> .oh-my-zsh/custom/theme/pure.zh-theme
-```
-- 3 vim .zshrc
+- 2 vim .zshrc
 ```
 #.zshrc
 
