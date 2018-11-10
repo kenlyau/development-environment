@@ -48,7 +48,6 @@ pure-theme.zsh 配色方案 [pure](https://github.com/sindresorhus/pure)
 
 - 1 npm install -g pure-prompt
 
-```
 - 2 vim .zshrc
 ```
 #.zshrc
